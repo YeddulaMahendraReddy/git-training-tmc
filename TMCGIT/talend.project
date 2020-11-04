@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_llMhkR6LEeuZxJAFQYLzhw" label="tmcgit" language="java" technicalLabel="TMCGIT" author="_llMhkh6LEeuZxJAFQYLzhw" productVersion="Talend Cloud API Services Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/YeddulaMahendraReddy/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_llMhkR6LEeuZxJAFQYLzhw" label="tmcgit" description="" language="java" technicalLabel="TMCGIT" author="_llMhkh6LEeuZxJAFQYLzhw" productVersion="Talend Cloud API Services Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/YeddulaMahendraReddy/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_d-CbkB6OEeuZxJAFQYLzhw" name="CAMEL|cAzureStorageBlob" family="Connectivity/File"/>
+    <componentsSettings xmi:id="_d-CbkR6OEeuZxJAFQYLzhw" name="DI|CouchbaseOutput" family="Databases NoSQL/Couchbase"/>
+    <componentsSettings xmi:id="_d-Cbkh6OEeuZxJAFQYLzhw" name="DI|tQASAddressVerified" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cbkx6OEeuZxJAFQYLzhw" name="DI|tUniservRTMailBulk" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-CblB6OEeuZxJAFQYLzhw" name="DI|AzureAdlsGen2Output" family="Cloud/Azure"/>
+    <componentsSettings xmi:id="_d-CblR6OEeuZxJAFQYLzhw" name="DI|tQASAddressUnknown" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cblh6OEeuZxJAFQYLzhw" name="DI|AzureAdlsGen2Input" family="Cloud/Azure"/>
+    <componentsSettings xmi:id="_d-Cblx6OEeuZxJAFQYLzhw" name="DI|tAccessBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_d-CbmB6OEeuZxJAFQYLzhw" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_d-CbmR6OEeuZxJAFQYLzhw" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_d-Cbmh6OEeuZxJAFQYLzhw" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_d-Cbmx6OEeuZxJAFQYLzhw" name="DI|tQASAddressIncomplete" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-CbnB6OEeuZxJAFQYLzhw" name="DI|WorkdayInput" family="Business/Workday"/>
+    <componentsSettings xmi:id="_d-CbnR6OEeuZxJAFQYLzhw" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_d-Cbnh6OEeuZxJAFQYLzhw" name="DI|tFuzzyJoin" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cbnx6OEeuZxJAFQYLzhw" name="DI|tUniservRTPost" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-CboB6OEeuZxJAFQYLzhw" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_d-CboR6OEeuZxJAFQYLzhw" name="DI|tUniservBTGeneric" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cboh6OEeuZxJAFQYLzhw" name="DI|WorkdayInput" family="Cloud/Workday"/>
+    <componentsSettings xmi:id="_d-Cbox6OEeuZxJAFQYLzhw" name="DI|CouchbaseInput" family="Databases NoSQL/Couchbase"/>
+    <componentsSettings xmi:id="_d-CbpB6OEeuZxJAFQYLzhw" name="CAMEL|cAWSMQBroker" family="Connectivity/Messaging"/>
+    <componentsSettings xmi:id="_d-CbpR6OEeuZxJAFQYLzhw" name="DI|tUniservRTConvertName" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cbph6OEeuZxJAFQYLzhw" name="DI|tAccessOutputBulkExec" family="Databases/DB Specifics/Access"/>
+    <componentsSettings xmi:id="_d-Cbpx6OEeuZxJAFQYLzhw" name="DI|tUniservRTMailSearch" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-CbqB6OEeuZxJAFQYLzhw" name="DI|tBlockedFuzzyJoin" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-CbqR6OEeuZxJAFQYLzhw" name="DI|tUniservRTMailOutput" family="Deprecated"/>
+    <componentsSettings xmi:id="_d-Cbqh6OEeuZxJAFQYLzhw" name="CAMEL|cAzureStorageBlob" family="Azure"/>
+    <componentsSettings xmi:id="_d-Cbqx6OEeuZxJAFQYLzhw" name="DI|tSAPBWInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_d-CbrB6OEeuZxJAFQYLzhw" name="CAMEL|cAWSMQBroker" family="AWS"/>
     <migrationTask xmi:id="_loUuEB6LEeuZxJAFQYLzhw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_llMhkh6LEeuZxJAFQYLzhw" login="mahendar.yeddula@trial31555.us.talend.com" firstName="Adam" lastName="Brown" type="DQ"/>
